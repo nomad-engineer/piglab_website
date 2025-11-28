@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+
+const services = (await getCollection("services")).sort(
+  (a, b) => a.data.order - b.data.order
+);
+
+const renderedServices = await Promise.all(
+  services.map(async (service) => {
+    const { Content } = await service.render();
+    return { ...service, Content };
+  })
+);
+---
+
+<section id="services" class="py-12 border-t border-[#ffffff10] text-[var(--white)]">
+  <div class="max-w-5xl mx-auto space-y-8">
+    <h2 class="text-lg text-[var(--sec)] mb-2 shiny-sec">What we do</h2>
+    <h3 class="text-4xl md:text-5xl font-medium mb-8">Services</h3>
+
+    <div class="grid grid-cols-1 gap-6">
+      {renderedServices.map((service) => (
+        <div class="bg-[#141414] border border-[#ffffff10] p-6 rounded-2xl hover:border-[var(--sec)] transition-colors duration-300 flex flex-col md:flex-row gap-6 items-center">
+          <div class="flex-shrink-0 w-full md:w-48 h-32 bg-[#1a1a1a] rounded-lg flex items-center justify-center border border-[#ffffff10]">
+             {service.data.image ? (
+                <img src={service.data.image.src} alt={service.data.title || "Service"} class="w-full h-full object-cover rounded-lg" />
+             ) : (
+                <span class="text-[var(--white-icon)] text-sm">Image</span>
+             )}
+          </div>
+          <div class="flex flex-col gap-2 w-full">
+            {service.data.title && <h4 class="text-xl font-semibold text-[var(--white)]">{service.data.title}</h4>}
+            <div class="text-[var(--white-icon)] text-lg leading-relaxed">
+              <service.Content />
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

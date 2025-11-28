@@ -1,0 +1,19 @@
+---
+title: "Home"
+intro_title: "PigLab"
+intro_subtitle: "A process and automation support company"
+intro_text: "We are a small one stop shop of experienced multi discipline engineers offering no nonsense support to the process engineering industry."
+---
+
+We specialise in small complex jobs that require a wide variety of skills with limited budget for large teams and costly physical works typical with larger companies. For example:
+
+- New installations that are almost complete but need additional remedial works to enter production. Perhaps you where let down by a supplier or contractor and left with a none functioning plant. We can help identify what minimal works are required, implement changes and work with your operators to bring the process into operation.
+- Retrofitting of old installations with newer technologies to revive previously abandoned processes or improve performance.
+- Ad hock operational support to fill gaps in current operational needs, help devise and revise operational methodologies to make better use of existing equipment particularly where 3rd party vendors have failed to provide adequate training and ongoing support.
+- Integration of new equipment into existing systems or integration of previously isolated systems for better performance or increased safety.
+- Data collection from a variably of sources into existing data logging systems or new. Data is at the heart of troubleshooting and optimisation of processes. As commissioning engineers we understand this and have seen how common it is for vendors and system integrators to neglect the need for good data collection and plotting.
+
+As a small lean team we have a unique advantage over traditional engineering firms who are often unwilling, noncompetitive or simply incapable of working on small complex work packages:
+
+- They are often front end loaded requiring extensive documentation, communication and planning before setting foot on site. We are direct and hands on aiming to provide value as soon as possible. No long drawn out meetings, no rummaging for long forgotten and out of data documents. We will go to site, look at your equipment, talk to your staff, hunt for notes scribbled in field drawings and on the back of doors, listen to noise and visual cues that are are far more telling of the plants state than as built documents.
+- Large firms are often reluctant to work with old equipment or work with equipment not previously supplied by themselves favouring instead to rip out equipment and start again at substantial cost, disruption and waste. We are happy to work with what you already have, devise work arounds and implement creative solutions to get the process working asap. We understand that solutions are not always high tech and the most simple is often the best. A minor tweak in control logic and operational methodology might be all that is needed.
