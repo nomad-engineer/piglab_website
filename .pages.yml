@@ -6,7 +6,7 @@ content:
     label: "Pages"
     type: "collection"
     path: "src/content/pages"
-    format: "frontmatter"
+    format: "yaml-frontmatter"
     fields:
       - name: "title"
         label: "Page Title"
